@@ -1,0 +1,247 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+geometry: margin = 0.5in
+mainfont: Helvetica
+fontsize: 11pt
+---
+
+\begin{center}
+\huge \textbf {Simon Tye}
+\par
+\normalsize PhD Student, Siepielski Lab, University of Arkansas
+\par
+\normalsize Email: simontye@uark.edu | Website: simontye.com | GitHub: simontye
+\end{center}
+
+******
+
+# Education
+
+*University of Arkansas*, PhD - Biology \hfill 2018 - Present </p>
+*University of Nebraska at Kearney*, B.S. - Biology (Wildlife) \hfill 2014 - 2017 </p>
+*Creighton University* \hfill 2008 - 2010 </p>
+
+# Teaching Experience
+
+*Teaching assistant - General Ecology Lab* \hfill 2019 - Present </p>
+  * Instructed two lab sections for upper-level undergraduates. </p>
+  
+*Teaching assistant - Human Anatomy Lab* \hfill 2019 </p>
+  * Instructed two lab sections for upper-level undergraduates. </p>
+  
+*Teaching assistant - Principles of Biology Lab* \hfill 2018 </p>
+  * Instructed two lab sections for lower-level undergraduates. </p>
+
+# Research Experience
+*Graphic designer* \hfill 2019 - Present </p>
+  * Alverson Lab, University of Arkansas </p>
+    + Created figures for a publication. </p>
+    + Created instructional videos for *myDiatoms*. </p>
+    
+*Graduate assistant* \hfill 2018 - Present </p>
+  * Siepielski Lab, University of Arkansas </p>
+    + Constructed mesocosms to compare mass moratlity events to a trophic cascade and resource pulse. </p>
+    + Compared digestive physiology components of different species and populations of damselfly larvae (*Enallagma*). </p>
+
+*Undergraduate researcher* \hfill 2015 - 2017 </p>
+  * Witnessing Watersheds Lab, University Nebraska at Kearney </p>
+    + Examined decadal changes to channel morphology and floodplain habitats of the upper Gila River, New Mexico (1935-2016). </p>
+    + Used time-lapse photography to document biodiversity associated with an American beaver lodge. </p>
+
+*Undergraduate researcher* \hfill 2015 - 2017 </p>
+  * Geluso Lab, University Nebraska at Kearney </p>
+    + Used camera traps to document night-roosting behaviors of the northern long-eared myotis (*Myotis septentrionalis*). </p>
+    + Used radiotransmitters to locate day roosts of 4 bat species in New Mexico. </p>
+
+*Research technician* \hfill 2016 </p>
+  * Geluso Lab, University Nebraska at Kearney </p>
+    + Used radiotransmitters to locate day roosts of 4 bat species in Nebraska. </p>
+
+*Research technician* \hfill 2015 </p>
+  * Center for Global Soundscapes, Purdue University </p>
+    + Setup and maintained bioacoustic recorders at relicit and restored grasslands. </p>
+
+# Journal Articles
+
+## Published
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+**Tye, SP**, BK Blaske, and AM Siepielski. 2020. Population-level variation of digestive physiology costs of mounting an immune response in damselflies. Ecological Entomology. In press. </p>
+**Tye, SP**, and K Geluso. 2019. Day roosts of *Myotis* (Mammalia: Chiroptera) in an arid riparian corridor in southwestern New Mexico. Western North American Naturalist 79(4):515-522. </p>
+**Tye, SP**, and K Geluso. 2019. Natural history: *Thamnophis radix*. Herpetological Review 50(3):603. </p>
+**Tye, SP**, IR Gomez, EM Brinley Buckley, and MJ Harner. 2019. Natural history: *Phrynosoma hernandesi*. Herpetological Review 50(1):143-144. </p>
+Geluso, K, EC Keele, IR Gomez, NM Pauley, and **SP Tye**. 2018. Night-roosting behaviors for the northern long-eared myotis (*Myotis septentrionalis*) under a bridge revealed by time-lapse photography. American Midland Naturalist 179(2):287-293. </p>
+**Tye, SP**, and K Geluso. 2017. Geographic distribution: *Tropidoclonion lineatum*. Herpetological Review 48(4):187. </p>
+**Tye, SP**, K Geluso, and MJ Harner. 2017. Geographic distribution: *Hyla chrysocelis*. Herpetological Review 48(2):382-383. </p>
+**Tye, SP**, K Geluso, and MJ Harner. 2017. Early emergence and seasonality of the red-bellied snake (*Storeria occipitomaculata*) along the Platte River in south-central Nebraska, USA. Transactions of the Nebraska Academy of Sciences and Affiliated Societies 37:11-17. </p>
+**Tye, SP**, K Geluso, and MR Fugagli. 2016. Merriam’s shrew (Sorex merriami) in the diet of a Mexican spotted owl (*Strix occidentalis lucida*) from Grant County, New Mexico. Museum of Texas Tech Occasional Papers 341:1-5. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+## Submitted
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+Siepielski, AM, AZ Hasik, T Ping, M Serrano, K Strayhorn, and **SP Tye**. 2019. Predators weaken prey intraspecific competition through natural selection. Ecology Letters. In review. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+## Contributor
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+Robinson, CR, and CB Yoakum. 2019. Variation in accessory mental foramen frequency and number in extant hominoids. In press. (Contribution: created figures). </p>
+Lindblom, RA, LM Reichart, BA Mandernack, M Solensky, CW Shoenebeck, and PT Redig. 2017. Influence of snowfall on blood lead levels of free-flying bald eagles (*Haliaeetus leucocephalus*) in the upper Mississippi River Valley. Journal of Wildlife Diseases 53(4):816-823. (Contribution: created figures). </p>
+Hongsermeier, A, NF Grandgenett, and DM Simon. 2017. Modeling evolution in the classroom: an interactive LEGO® simulation. The American Biology Teacher 79(2):128-134. (Contribution: compiled data). </p>
+Andersen, BR, and K Geluso. 2018. Roost characteristics and clustering behavior of western red bats (*Lasiurus blossevillii*) in southwestern New Mexico. Western North American Naturalist 78(2):174-183. (Contribution: collected data). </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+# Presentations
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+Harner, MJ, EM Brinley Buckley, ES Soles, D Whited, **SP Tye**, and MS Cooper. 2020. Shifting channels of the Gila: historical analysis of land-cover change along the Cliff-Gila Valley floodplain from 1935 to 2016. Natural History of the Gila Symposium, Silver City, NM. </p>
+**Tye, SP**, BK Blaske, and AM Siepielski. 2019. Population density influences the digestive physiology costs of mounting an immune response in damselflies. Ecological Society of America, Louisville, Kentucky. Poster. </p>
+**Tye, SP**, MJ Harner, ML Forsberg, EM Brinley Buckley, and JS Dale. 2018. Biodiversity and animal activity associated with a beaver lodge near the Platte River. Platte River Basin Ecosystem Symposium, Wood River, Nebraska. Oral. </p>
+**Tye, SP**, and K Geluso. 2017. Day roosts of *Myotis* (Mammalia: Chiroptera) in an arid riparian corridor in southwestern New Mexico. Central Plains Society of Mammalogists, Dubuque, Iowa. Poster. </p>
+Geluso, K, EC Keele, IR Gomez, NM Pauley, and **SP Tye**. 2017. Night-roosting behaviors for the northern long-eared myotis (*Myotis septentrionalis*) under a bridge revealed by time-lapse photography. Central Plains Society of Mammalogists, Dubuque, Iowa. Poster. </p>
+Harner, MJ, EM Brinley Buckley, and **SP Tye**. 2017. The art and science of the Platte River wetlands. Museum of Nebraska Art Showcase, Kearney, Nebraska. Oral. </p>
+**Tye, SP**, ML Forsberg, EM Brinley Buckley, K Geluso, JS Dale, and MJ Harner. 2017. Phenology of a North American beaver (*Castor canadensis*) lodge near the Platte River, Nebraska, unveiled by time-lapse photography. Society for Freshwater Science, Raleigh, North Carolina. Oral. </p>
+Harner MJ, EM Brinley Buckley, B Gottesman, **SP Tye**, M Farrell, ML Forsberg, and B Pijanowski. 2017. Sights and sounds of the spring sandhill crane migration on the Platte River. North American Crane Workshop, Chattanooga, Tennessee. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+# Awards and Fellowships
+David Causey Prize for Graduate Study \hfill 2019 </p>
+  * Department of Biological Sciences, University of Arkansas </p>
+  
+Graduate Student Council \hfill 2019 - 2022 </p>
+  * American Society of Naturalists </p>
+  
+Doctoral Academy Fellowship \hfill 2018 - 2022 </p>
+  * Department of Biological Sciences, University of Arkansas </p>
+  
+Outstanding Undergraduate Student \hfill 2017 </p>
+  * University of Nebraska at Kearney </p>
+
+# Grants
+## Funded
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+**Tye, SP**. 2019. Doctoral Student Travel Grant. University of Arkansas. $1,100. </p>
+**Tye, SP**. 2017. Biology Department Research Award. University of Nebraska at Kearney. $500. </p>
+**Tye, SP**. 2017. Undergraduate Research and Creative Activity Award. University of Nebraska at Kearney. $400. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+## Submitted
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+**Tye, SP**. 2019. Potential coevolutionary dynamics after mass mortality events. American Philosophical Society. $5,000. </p>
+**Tye, SP**. 2019. Role of adaptation in generating community responses to mass mortality events. National Science Foundation Graduate Research Fellowship Program. $138,000. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+## Not funded
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+**Tye, SP**. 2018. Ecological and evolutionary implications of mass mortality events. National Academy of Sciences, Engineering, and Medicine. $72,000. </p>
+**Tye, SP**. 2017. Macroinvertebrate communities of the upper Gila River. National Science Foundation Graduate Research Fellowship Program. $138,000. </p>
+**Tye, SP**, and K Geluso. 2017. Day roosts of bats in an arid riparian corridor in southwestern New Mexico. Holohil. Not funded. $2,500. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+# Reviewer
+The Prairie Naturalist (1) </p>
+
+# Outreach
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent
+
+Lehmberg, ES, **SP Tye**, and CR Chappell. 2020. Command-line programming and bioinformatics for beginners. Evolution, Cleveland, OH. Workshop. </p>
+**Tye, SP**. 2019. Enhancing figures: from ggplot2 to Adobe Illustrator. American Society of Naturalists Graduate Student Council. Blog. </p>
+**Tye, SP**. 2017. Sights and sounds of spring. Platte Basin Timelapse Project. Blog. </p>
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\setlength{\parskip}{0pt}
+\noindent
+
+# Memberships
+American Society of Naturalists \hfill 2019 - Present </p>
+Ecological Society of America \hfill 2019 - Present </p>
+Society for Freshwater Science \hfill 2017 - 2018 </p>
+Central Plains Society of Mammalogists \hfill 2017 - 2018 </p>
+
+# Software Experience
+## Multimedia
+Adobe Creative Cloud (After Effects, Illustrator, Photoshop, Premiere Pro) </p>
+## Geographic Information Systems
+ERDAS Imagine, ESRI ArcGIS </p>
+## Coding
+R </p>
+
+# References
+*Dr. Adam Siepielski* </p>
+Assistant Professor </p>
+Department of Biological Sciences </p>
+University of Arkansas </p>
+amsiepie@uark.edu </p>
+\vspace{12pt}
+
+*Dr. Keith Geluso* </p>
+Professor </p>
+Department of Biology </p>
+University of Nebraska at Kearney </p>
+gelusok1@unk.edu </p>
+\vspace{12pt}
+
+*Dr. Mary Harner* </p>
+Associate Professor </p>
+Departments of Biology and Communication </p>
+University of Nebraska at Kearney </p>
+harnermj@unk.edu </p>
