@@ -1,0 +1,101 @@
+#! /bin/bash
+
+### assn01-1
+
+find ~/ -name "*nad*"
+
+### assn01-2
+
+top
+
+## CPU usage for top command (5.3%)
+# 21940  top          5.3  00:02.06 1/1   0    25    6664K  0B     0B     21940 21819 running  *0[1]
+
+## CPU stats
+# Load Avg: 0.71, 2.76, 3.50  CPU usage: 2.32% user, 3.37% sys, 94.30% idle
+
+## Hard drive stats
+# MemRegions: 166453 total, 5154M resident, 172M private, 1967M shared. PhysMem: 13G used (3007M wired), 2990M unused.
+
+### assn01-3
+
+cd ~/Desktop/watermelon_files
+grep misc_feature watermelon.gff | sort -k7g
+ls -al
+
+######## Fragment size in descending order
+
+### assn01-4
+
+grep misc_feature watermelon.gff | grep "chloroplast IR" | wc -l
+grep misc_feature watermelon.gff | grep -v "chloroplast IR" | wc -l
+
+## 3 for IR region; 34 for non-IR region
+
+### assn01-5
+
+chmod u+x watermelon.gff
+ls -al
+cd ~/Desktop/watermelon_files/watermelon_nt
+grep -hB100 GGATCC *.fasta | grep -huB100 GAATTC | less -S
+
+## Output
+# >Citrullus_atp1
+# ATGGAATTCTCTCCCGGAGCTGCGGAACTAACGACTTTATTAGAAAGTCGAATTACCAACTTTTACACGAATTTTCAAGTGGATGAGATC
+# --
+# --
+# >Citrullus_ccmB
+# ATGAGACGACTCTTTCTTTCACTATATCATAAACGGATCTTCCCCTCCACACCAATCACGAGTTTTTCTCCATTCCTCTCGTATATCGTC
+# --
+# >Citrullus_ccmFn
+# ATGTCAATATATGAATTGTTTCATTATTCGTTATTTCCCGGTCTTTTCGTTGCATTCACTTACAACAAGAAACAACCACCAGCGTTTGGT
+# --
+# >Citrullus_cox1
+# 
+# ACGACAAATCCGGTCCGATGGCTGTTCTCCACTAACCACAAGGATATAGGGACTCTATATTTCATCTTCGGTGCCATTGCTGGAGTGATG
+# --
+# --
+# >Citrullus_matR
+# AGAAAGAAATCCGGGTCGAAGTTTAGACCGCTCACAGTAGTTCGACCTATAGAAAAGATCATGAAAGAGGCGATCAGAATGGTACTCGAA
+# --
+# --
+# >Citrullus_nad4
+# ATGTTAGAACATTTCTGTGAATGCTATTCTGATTTAAGTGGTCCTATTCTGTGTCCCGTGCTAGGAAGCATTACTCCTCTTTTCATTCCA
+# --
+# --
+# >Citrullus_nad4L
+# ACGGATCCTATCAAATATTTCACATTTTCTATGATCATCTCTATTTTAGGTATTCGGGGAATCCTCCTTAATAGACGAAATATTCCTATT
+# --
+# --
+# >Citrullus_nad5
+# ATGTATCTACTTATCGTATTTTTGCCCCTGCTCGGTAGTTCCGTAGCAGGTTTTTTCGGACGTTTTCTAGGATCAGAAGGAACCGCTATA
+# --
+# >Citrullus_nad7
+# ATGACGACTAGGAACAGGCAAATCAAAAATTTCACTTCGAATTCCGGACCTCAACATCCTGCTGCTCATGGTGTTTCACGATCAGTATTG
+# --
+# --
+# >Citrullus_rpl5
+# ATGTTTTCACTCGATTTTCATTACGAAGATGTATCACGTCAGGATCCGTTGCTCAAACTGAATCACGCCAACGTTATGGAAGTTCCTGGA
+# --
+# --
+# >Citrullus_rps1
+# ATGTTCTTGGTGGATGCAGGACCTGGGACCCCCAGAATTTGTATGCAAGATGAGCCTACAGGAGTGCCAATCAACCGAGCCACCAGGTTT
+# --
+# >Citrullus_rps3
+# ATGGCACGAAAAGGAAATCCTATTTCGGTAAGACTTGATCTGAATCGTAGTTCAGATTCAAGTCGGTTCAGTGATTATTATTATGGTAAA
+# (END)
+
+### assn01-6
+
+cd ~/Desktop/example_files
+ls -al
+sed -n "500,1000 p" shaver_etal.csv
+
+### assn01-7
+
+sort -k2,2r -k3,3 fruit.txt
+
+
+
+
+
