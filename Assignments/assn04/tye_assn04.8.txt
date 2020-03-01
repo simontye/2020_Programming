@@ -1,0 +1,20 @@
+### assn04_7
+
+## Repeats
+
+# wc -l tye_assn04_8a.txt
+
+# Default: 471
+# Somewhat sensitive: 2158
+# Sensitive: 1358
+
+## Smallest size
+
+# column tye_assn04_8a.txt | sort -nk 4 | less
+
+# Default: 28
+# Somewhat sensitive: 18
+# Sensitive: 30
+
+## Relationship between smallest length and unknown parameter 
+# The word_size parameters dictates the lengths that nucleotide sequences may be when searching for matches.
