@@ -1,14 +1,9 @@
 #! /usr/bin/env python3
 
-# Change working directory
-import os
-os.chdir(/Users/simontye/Documents/Research/Courses/Programming/Assignments/)
-
 # Open file
-dna = "dna.txt"
-dna2 = open(dna, "r")
-dna3 = dna2.read()
-dna3.upper()
+dna = open("/Users/simontye/Documents/Research/Courses/Programming/Assignments/dna.txt")
+dna2 = dna.read()
+dna2.upper()
 
 # Create prefixes
 prefix_a = "Percent A:"
@@ -20,10 +15,10 @@ prefix_g = "Percent G:"
 length = len(dna3)
 
 # Calculate percentages
-percent_a = dna3.count("A") / length
-percent_t = dna3.count("T") / length
-percent_c = dna3.count("C") / length
-percent_g = dna3.count("G") / length
+percent_a = dna2.count("A") / length
+percent_t = dna2.count("T") / length
+percent_c = dna2.count("C") / length
+percent_g = dna2.count("G") / length
 
 # Print output
 print(prefix_a, round(percent_a,2))
