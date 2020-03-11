@@ -12,7 +12,7 @@ prefix_c = "Percent C:"
 prefix_g = "Percent G:"
 
 # Calculate length of dna
-length = len(dna3)
+length = len(dna2)
 
 # Calculate percentages
 percent_a = dna2.count("A") / length
