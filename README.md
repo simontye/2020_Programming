@@ -15,3 +15,7 @@ File(s): assn03.sh; assn03_7.sh
 Date: 20200301  
 Assignment: assn04.pdf  
 File(s): assn04/  
+
+Date: 20200318  
+Assignment: assn05.pdf  
+File(s): assn05.ipynb; parseGFF.py  
