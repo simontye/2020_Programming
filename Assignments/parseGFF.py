@@ -4,10 +4,10 @@
 import argparse
 import csv
 
-# Import watermelon.gff
-input = open("watermelon.gff", "r")
-
 # Method 1: Old school
+
+# Import watermelon.gff
+#input = open("watermelon.gff", "r")
 
 # Create function
 #for line in input:
@@ -21,27 +21,21 @@ input = open("watermelon.gff", "r")
 
 # Method 2: New school
 
-# Import files
+# Specify input files
 gff_file   = 'watermelon.gff'
 fasta_file = 'watermelon.fsa'
 
 # Create empty list for genes
-# gene_names = []
-
-# Open the GFF file
-gff = open(gff_file, 'r')
-
-# Create argument
-parse = argparse.ArgumentParser()
-parse.add_argument('gff')
-arg = parse.parse_args()
+gene_names = []
 
 # Create function
-with open(arg.gff) as input:
-    input.read = csv.reader(input, delimiter = "\t")
-    gene_names = []
-    for line in input.read:
-        print(line[8])
-        
+with open(gff_file, "r") as gff:
+	reader = csv.reader(gff, delimiter = "\t")
+	for line in reader:
+	if not line:
+		continue
+	else:
+		print(line[3], line[4])
+
 # Close the GFF file
 gff.close()
