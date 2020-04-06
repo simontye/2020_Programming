@@ -21,6 +21,16 @@ input = open("watermelon.gff", "r")
 
 # Method 2: New school
 
+# Import files
+gff_file   = 'watermelon.gff'
+fasta_file = 'watermelon.fsa'
+
+# Create empty list for genes
+# gene_names = []
+
+# Open the GFF file
+gff = open(gff_file, 'r')
+
 # Create argument
 parse = argparse.ArgumentParser()
 parse.add_argument('gff')
@@ -29,6 +39,9 @@ arg = parse.parse_args()
 # Create function
 with open(arg.gff) as input:
     input.read = csv.reader(input, delimiter = "\t")
-    GeneList = []
+    gene_names = []
     for line in input.read:
         print(line[8])
+        
+# Close the GFF file
+gff.close()
