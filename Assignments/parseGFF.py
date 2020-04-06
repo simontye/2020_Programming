@@ -1,41 +1,50 @@
 #! /usr/bin/env python3
 
+### Notes
+## Single vs. multiple records
+# SeqIO.parse (multiple records)
+# SeqIO.read (single recrods)
+
+## Print methods or functions or a given variable type
+# print(dir(genome))
+
+## Tests
+# print(genome.description)
+# print(len(genome.seq))
+# print(genome.seq)
+
 # Import modules
 import argparse
 import csv
+from Bio import SeqIO
 
-# Method 1: Old school
+# Create argument parser object
+parser = argparse.ArgumentParser(description = "This script parses a GFF file")
 
-# Import watermelon.gff
-#input = open("watermelon.gff", "r")
+# Add positional arguments
+parser.add_argument("gff",   help = "Name of the GFF file")
+parser.add_argument("fasta", help = "Name of the FASTA file")
 
-# Create function
-#for line in input:
-#    value = line.split("\t", 8) # Split by tab
-#    value = value[8] # Only save 9th column
-#    value = value.split(";", 5) # Split by semicolon
-#    value = value[0] # Only save 1st column
-#    value = value.split(" ", 1) # Split by space
-#    value = value[1] # Only save 2nd column
-#    print(value)
+# Parse the arguments
+args = parser.parse_args()
 
-# Method 2: New school
-
-# Specify input files
-gff_file   = 'watermelon.gff'
-fasta_file = 'watermelon.fsa'
-
-# Create empty list for genes
-gene_names = []
+# Read and parse the fasta file
+genome = SeqIO.read(args.fasta, "fasta")
+genome_seq = genome.seq
 
 # Create function
-with open(gff_file, "r") as gff:
-	reader = csv.reader(gff, delimiter = "\t")
-	for line in reader:
-	if not line:
-		continue
-	else:
-		print(line[3], line[4])
-
-# Close the GFF file
-gff.close()
+with open(args.gff, "r") as gff_file:
+    reader = csv.reader(gff_file, delimiter = "\t")
+    for line in reader:
+        if line[2] != "CDS":
+            # Define start and end positions
+            start = line[3]
+            end   = line[4]
+            # Find substrings in genome_seq
+            substring = genome_seq[(start - 1):(end - 1)]
+            # Calculate GC content
+            g_count = substring.count("G")
+            c_count = substring.count("C")
+            length  = len(substring)
+            # Print output
+            print((g_count + c_count)/length)
